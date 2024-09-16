@@ -97,7 +97,7 @@ print(f"Media dos pares: {md_par:.2f}")
 print(f"Media dos impares: {md_impar:.2f}")
 print(f"Media de todos os numeros: {md_total:.2f}")
 time.sleep(1)
-print(f"=== Maior e menor numero ===\n")
+print(f"\n=== Maior e menor numero ===\n")
 print(f"{maior_num} é o maior numero.")
 print(f"{menor_num} é o menor numero")
 
