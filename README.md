@@ -8,12 +8,12 @@ Você está fazendo parte de uma equipe de desenvolvimento e precisa corrigir um
 
 1. A quantidade de números pares e ímpares. feito
 2. A quantidade de números positivos e negativos. feito
-3. A quantidade de números inseridos.
-4. O maior e o menor número.
-5. A média de números pares. feito com erro
-6. A média de números ímpares. feito com erro
-7. A média de todos os números inseridos.
-8. Mostrar os números lidos na ordem inversa.
+3. A quantidade de números inseridos.feito
+4. O maior e o menor número.feito
+5. A média de números pares. feito
+6. A média de números ímpares. feito  
+7. A média de todos os números inseridos.feito 
+8. Mostrar os números lidos na ordem inversa. feito
 
 ## Código
 
