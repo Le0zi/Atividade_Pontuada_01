@@ -19,7 +19,7 @@ os.system("cls||clear")
 import time
 import random
 
-QTD = 3
+QTD = 5
 lista_num=[]
 
 #Entrada de dados:
