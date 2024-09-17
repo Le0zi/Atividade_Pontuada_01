@@ -17,7 +17,7 @@ import os
 os.system("cls||clear")
 
 import time
-import random
+import random #Sorteio de numeros para teste Rapido:
 
 QTD = 5
 lista_num=[]
@@ -50,8 +50,7 @@ def processando_par_impar(a):
         if numero %2==0:
             quantidade_pares +=1
             list_par.append(numero)
-
-        else:
+        elif numero%2!=0:
             quantidade_impares +=1
             list_impar.append(numero)
 
