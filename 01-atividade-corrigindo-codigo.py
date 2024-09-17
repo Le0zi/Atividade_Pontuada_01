@@ -22,20 +22,23 @@ import random #Sorteio de numeros para teste Rapido:
 QTD = 5
 lista_num=[]
 
-#Entrada de dados:
-for i in range(QTD):
-    while True:
-        """numero1=random.randint(-10,10)"""
-        numero1 = int(input(f"Informe o {i+1}º numero: "))
-        lista_num.append(numero1)
-        break
+def logo_senai():
+    print("""
+===============
+---  SENAI  ---
+===============          
+
+""")
+    
+
 
 # Processando dados:
+    
 def media (a):
     qtd = len(a)
     soma = sum(a)
     for numero in a:
-        if  numero != 0:
+        if  (numero >= 0) or (numero<=0):
             media = soma/qtd
             return media
         else:
@@ -66,21 +69,32 @@ def processando_posi_nega (a):
             quantidade_negativo+=1
     return quantidade_negativo, quantidade_positivo
 
+#Entrada de dados:
+
+logo_senai()
+
+print("\n=== Entrada de dados ===\n")
+for i in range(QTD):
+    while True:
+        """numero1=random.randint(-10,10) #Teste rapido:"""
+        numero1 = int(input(f"Informe o {i+1}º numero: "))
+        lista_num.append(numero1)
+        break
+
 #Atribuindo valores a variaveis:
 
 qtd_par, list_par, qtd_imp, list_impar= processando_par_impar(lista_num)
 negativo, positivo = processando_posi_nega(lista_num)
-md_par = media(list_par)
-md_impar=media(list_impar)
-md_total = media(lista_num)
+md_par:float = media(list_par)
+md_impar:float=media(list_impar)
+md_total:float = media(lista_num)
 maior_num=max(lista_num)
 menor_num=min(lista_num)
 qtd_total=len(lista_num)
 
-
-
-
 #Imprimindo resultados:
+os.system("cls||clear")
+logo_senai()
 
 print("\n=== Quantidade ===\n")
 time.sleep(1)
@@ -90,11 +104,11 @@ print(f"Quantidade de numero negativo: {negativo}")
 print(f"Quantidade de numero positivo: {positivo}")
 print(f"Quantidade total de numeros inseridos: {qtd_total}")
 time.sleep(1)
-print(f"\n=== Medias ===\n")
+print(f"\n=== Médias ===\n")
 time.sleep(1)
-print(f"Media dos pares: {md_par}")
-print(f"Media dos impares: {md_impar}")
-print(f"Media de todos os numeros: {md_total}")
+print(f"Média dos pares: {md_par}")
+print(f"Média dos impares: {md_impar}")
+print(f"Média de todos os numeros: {md_total}")
 time.sleep(1)
 print(f"\n=== Maior e menor numero ===\n")
 print(f"{maior_num} é o maior numero.")
