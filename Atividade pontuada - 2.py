@@ -1,4 +1,20 @@
-# João Victor Agapio Modesto Mendes | Bruno Henrique Alves Santos | Leonardo Machado Britto | Nicolas Roger
+"""Você está fazendo parte de uma equipe de desenvolvimento
+e precisa corrigir um código que um de seus colegas 
+não concluiu. 
+O objetivo é criar um algoritmo que leia 5 números inteiros e, 
+em seguida, mostre na tela:
+
+A quantidade de números pares e ímpares.
+A quantidade de números positivos e negativos.
+A quantidade de números inseridos.
+O maior e o menor número.
+A média de números pares.
+A média de números ímpares.
+A média de todos os números inseridos.
+Mostrar os números lidos na ordem inversa. 
+Variáveis para armazenar os números"""
+
+# Alunos: João Victor Agapio Modesto Mendes | Bruno Henrique Alves Santos | Leonardo Machado Britto | Nicolas Roger
 
 import os
 import random
